@@ -37,12 +37,18 @@
 pip install --no-cache-dir -r requirements.txt
 ```
 
-## 3. Установите библиотеки для frontend'а
+## 3. Установите библиотеки для frontend'а и создайте .env.development файл
 
 Для этого перейдите в директорию "Frontend" и введите там следующую команду:
 
 ```shell
 npm i
+```
+
+Затем в этой же папке создайте файл ".env.development" и добавьте туда следующее содержимое:
+
+```
+VITE_REACT_APP_API_ENDPOINT=http://localhost:8083/api
 ```
 
 ## 4. Запустите backend
