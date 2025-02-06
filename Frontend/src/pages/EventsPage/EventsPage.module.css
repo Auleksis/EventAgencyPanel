@@ -1,0 +1,42 @@
+@import url("/src/styles/pages.css");
+
+.users_page_management_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  flex-flow: row wrap;
+
+  justify-content: center;
+
+  gap: 1rem;
+
+  padding: 0 5rem;
+}
+
+.users_page_table {
+  border-width: 1px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+
+  text-align: center;
+}
+
+.users_page_card_container {
+  height: 20rem;
+  width: 26rem;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.events_page_checkbox_filter_div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}

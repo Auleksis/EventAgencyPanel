@@ -1,0 +1,67 @@
+@import url("/src/styles/pages.css");
+
+.main_page_container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.main_page_year_management_container {
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+
+  padding: 0 5rem;
+
+  justify-items: center;
+}
+
+.main_page_student_management_container {
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+
+  padding: 0 5rem;
+
+  justify-items: center;
+}
+
+.main_page_table {
+  border-width: 1px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+.main_page_table_row_text_cell {
+  text-align: center;
+
+  background-color: rgb(from var(--text-primary) r g b / 10%);
+}
+
+.main_page_table_row_non_text_cell {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+
+  width: 100%;
+}
+
+.main_page_table_row_non_text_cell_container {
+  background-color: rgb(from var(--text-primary) r g b / 10%);
+}
+
+.main_page_section_container {
+  padding: 1rem 5rem;
+
+  width: 100%;
+}

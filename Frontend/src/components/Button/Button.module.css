@@ -1,0 +1,75 @@
+@import url("/src/styles/pages.css");
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+
+  padding: var(--default-padding);
+
+  background-color: var(--accent);
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: var(--border-radius);
+
+  border-style: none;
+
+  font-size: var(--text-size);
+
+  gap: 1rem;
+
+  color: var(--background);
+}
+
+.button_container .subtext {
+  color: inherit;
+}
+
+.button_container:hover {
+  box-shadow: var(--default-shadow) var(--text-primary-v-2);
+}
+
+.button_container:active,
+.active {
+  color: var(--text-primary);
+  background-color: var(--background);
+  box-shadow: var(--default-shadow) var(--text-primary-v-2);
+}
+
+.action_button {
+  border-style: none;
+  border-radius: var(--border-radius-2);
+  width: 100%;
+
+  padding: var(--default-padding);
+
+  .subtext {
+    color: var(--background);
+  }
+}
+
+.positive_button {
+  background-color: rgb(from var(--accent-v-2) r g b / 80%);
+
+  &:hover {
+    background-color: rgb(from var(--accent-v-2) r g b / 50%);
+  }
+
+  &:active {
+    background-color: rgb(from var(--accent-v-2) r g b / 100%);
+  }
+}
+
+.negative_button {
+  background-color: rgb(from var(--accent-v-3) r g b / 80%);
+
+  &:hover {
+    background-color: rgb(from var(--accent-v-3) r g b / 50%);
+  }
+
+  &:active {
+    background-color: rgb(from var(--accent-v-3) r g b / 100%);
+  }
+}

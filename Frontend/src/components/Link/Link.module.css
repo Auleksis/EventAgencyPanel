@@ -1,0 +1,37 @@
+@import url("/src/styles/pages.css");
+
+.link {
+  color: var(--text-primary-v-2);
+
+  & .subtext {
+    color: var(--text-primary-v-2);
+    font-weight: 100;
+  }
+
+  padding: var(--default-padding);
+
+  text-decoration: none;
+}
+
+.selected_link {
+  color: var(--background);
+  background-color: var(--accent);
+
+  & .subtext {
+    color: var(--background);
+    font-weight: 100;
+  }
+
+  padding: var(--default-padding);
+  border-radius: var(--border-radius);
+
+  text-decoration: none;
+}
+
+.link:hover {
+  text-shadow: var(--shifted-shadow);
+}
+
+.link:active {
+  color: var(--text-primary);
+}

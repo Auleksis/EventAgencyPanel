@@ -1,0 +1,48 @@
+@import url("/src/styles/pages.css");
+
+.layout {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+  grid-template-areas:
+    "header header header"
+    "content content content"
+    "content content content"
+    "content content content";
+
+  /* flex-direction: column; */
+
+  height: 100%;
+
+  width: 100vw;
+
+  background-color: var(--background);
+}
+
+.main_container {
+  grid-area: content;
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 100%;
+
+  overflow-y: auto;
+
+  overflow-x: hidden;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
+
+.content_container {
+  display: flex;
+
+  flex-direction: column;
+
+  flex: 1 0 auto;
+
+  padding: 0rem 3rem;
+}

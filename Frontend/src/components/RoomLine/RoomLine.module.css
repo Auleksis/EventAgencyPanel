@@ -1,0 +1,63 @@
+@import url("/src/styles/pages.css");
+
+.room_line_container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 3rem 2fr 1fr 3rem;
+
+  width: 100%;
+
+  align-items: center;
+
+  color: var(--accent);
+
+  padding: 1rem 2rem;
+
+  & .default_text {
+    color: inherit;
+  }
+
+  & .cross_svg_div {
+    color: inherit;
+  }
+
+  &:hover {
+    background-color: rgb(from var(--accent) r g b / 25%);
+  }
+
+  &:active {
+    color: var(--background);
+    background-color: rgb(from var(--accent) r g b / 50%);
+  }
+}
+
+.room_line_container_owned {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 3rem 2fr 1fr 3rem 3rem;
+
+  width: 100%;
+
+  align-items: center;
+
+  color: var(--accent);
+
+  padding: 1rem 2rem;
+
+  & .default_text {
+    color: inherit;
+  }
+
+  & .cross_svg_div {
+    color: inherit;
+  }
+
+  &:hover {
+    background-color: rgb(from var(--accent) r g b / 25%);
+  }
+
+  &:active {
+    color: var(--background);
+    background-color: rgb(from var(--accent) r g b / 50%);
+  }
+}

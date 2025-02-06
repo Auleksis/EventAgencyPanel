@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.dist-info/
+*.venv/
+env/
+venv/
+.Python
+build/
+develop-eggs/
+dist/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# C extensions
+*.c
+
+# Distribution / packaging
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# FastAPI
+instance/
+*.db
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+*.coveragerc
+*.coverage*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.json
+
+# Virtual environments
+env/
+venv/
+ENV/
+ENV.*/
+.venv/
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Environment files
+.env
+.env.*
+.secret
+
+# Pyre type checker
+.pyre/
+
+# MyPy type checker
+.mypy_cache/
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Temporary files and directories
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp

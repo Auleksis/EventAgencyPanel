@@ -1,0 +1,66 @@
+@import url("/src/styles/pages.css");
+
+.header {
+  grid-area: header;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  background-color: var(--background);
+
+  box-shadow: var(--shifted-shadow)
+    rgb(from var(--text-primary-v-2) r g b / 25%);
+
+  padding: 0rem 3rem;
+
+  z-index: 1000;
+}
+
+.header_elements_div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0;
+
+  flex: 1;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  & .subtext {
+    position: absolute;
+    top: 3.4rem;
+    left: 0.2rem;
+  }
+}
+
+.header_nav_div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  gap: 2rem;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.header_action_button_div {
+  display: flex;
+  flex-direction: row-reverse;
+
+  flex: 1;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 3rem;
+
+  & .subtitle {
+    color: var(--text-primary);
+  }
+}
